@@ -1,2 +1,3 @@
-# Changelog
-- Initialized CHANGELOG.md for tracking server/database changes.
+# ChangeLog
+
+CHANGELOG.md is Initialized for tracking server/database changes.
