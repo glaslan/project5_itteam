@@ -12,7 +12,7 @@ CHANGELOG.md is Initialized for tracking server/database changes.
 - 2025-09-17 - sudo podman run -d \
   --name postgres \
   -e POSTGRES_USER=classadmin \
-  -e POSTGRES_PASSWORD='PostgresPassword' \
+  -e POSTGRES_PASSWORD='ProjectV2025' \
   -e POSTGRES_DB=classdb \
   -v pgdata:/var/lib/postgresql/data \
   -v /srv/pgbackups:/backups \
