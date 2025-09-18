@@ -1,1 +1,1 @@
-
+Run database on server: podman exec -it postgres psql -U classadmin -d classdb
