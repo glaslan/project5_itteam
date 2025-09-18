@@ -19,3 +19,7 @@ CHANGELOG.md is Initialized for tracking server/database changes.
   -p 0.0.0.0:5432:5432 \
   docker.io/library/postgres:15 on .12 server to run PostgreSQL container
 - 2025-09-17 sudo podman exec -it postgres psql -U classadmin -d classdb on .12 server to connect into Postgres
+- 2025-09-17 sudo firewall-cmd --add-port=5432/tcp --parmanent on .12 server to open postgres port for remote access
+- 2025-09-17 sudo podman exec -it postgres bash on .12 server
+- 2025-09-17 echo "host all all 0.0.0.0/0 scram-sha-256" >> /var/lib/postgresql/data/pg_hba.conf on .12 server to allow any IP to connect, as long as they have use a password
+  
