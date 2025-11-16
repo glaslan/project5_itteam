@@ -1,2 +1,1 @@
-FROM alpine
-CMD ["echo", "Hello Jenkins!"]
+FROM hello-world
