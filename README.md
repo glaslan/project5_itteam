@@ -6,3 +6,4 @@ This repo is the main area for IT related resources. Here you'll find:
 - Resources for the server
 - Issues and requests related to the server, permission, and software
 - The wiki with documentation about the server
+- Information about Jenkins Webhooks
