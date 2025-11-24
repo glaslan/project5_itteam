@@ -30,7 +30,12 @@ CHANGELOG.md is Initialized for tracking server/database changes.
 - 2025-10-01 - sudo chmod 600 /etc/containers/env/postgres.env on .12 server to set permmision only for root user access
 - 2025-10-01 - sudo nano /etc/containers/systemd/postgres.container on .12 server to create quadlet unit
 - 2025-01-08 - sudo mkdir -p /srv/ProjectV/{database,HR,POS,facilities,transactions,inventory-management,menu} to create ProjectV root and team folders
-- 2025-01-08 - 
+- 2025-11-23 - sudo mkdir -p /srv/ProjectV/env
+- 2025-11-23 - sudo nano /srv/ProjectV/env/api.env and pasted the env file from database team
+- 2025-11-23 - openssl rand hex 32 for JWT SECRET
+- 2025-11-23 - sudo chown jenkins:jenkins /srv/ProjectV/env/api.env
+- 2025-11-23 - sudo chmod 600 /srv/ProjectV/env/api.env
+
 
 
   
